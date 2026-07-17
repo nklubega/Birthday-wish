@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday ❤️</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating Background -->
+    <div id="balloons"></div>
+    <div id="hearts"></div>
+
+    <!-- Music -->
+    <audio id="music" loop>
+        <source src="music/birthday.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="musicBtn">🎵 Play Music</button>
+
+    <!-- Hero -->
+    <section class="hero">
+
+        <h3>🎂</h3>
+
+        <h1>Happy Birthday</h1>
+
+        <h2>My Love ❤️</h2>
+
+        <p>
+            Today is all about celebrating the most wonderful person in my life.
+        </p>
+
+        <button id="startBtn">
+            Begin the Surprise ✨
+        </button>
+
+    </section>
+
+    <!-- Hidden Content -->
+    <main id="content">
+
+        <!-- Typing -->
+        <section class="card">
+
+            <h2>A Letter For You 💌</h2>
+
+            <p id="typing"></p>
+
+        </section>
+
+        <!-- Question -->
+        <section class="card">
+
+            <h2>Quick Question 😄</h2>
+
+            <p>How amazing are you?</p>
+
+            <div class="buttons">
+
+                <button class="answer">
+                    Very Amazing
+                </button>
+
+                <button class="answer">
+                    The Most Amazing Person Ever
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- Gift -->
+        <section class="card">
+
+            <h2>Your Birthday Gift 🎁</h2>
+
+            <div id="gift">
+
+                🎁
+
+            </div>
+
+            <p>Click the gift!</p>
+
+        </section>
+
+        <!-- Cake -->
+        <section class="card hidden" id="cakeSection">
+
+            <h2>Surprise!!</h2>
+
+            <div id="cake">
+
+                🎂
+
+            </div>
+
+            <h3>Make a Wish!</h3>
+
+        </section>
+
+        <!-- Gallery -->
+        <section class="card">
+
+            <h2>Our Memories ❤️</h2>
+
+            <div class="gallery">
+
+                <img src="images/photo1.jpg">
+
+                <img src="images/photo2.jpg">
+
+                <img src="images/photo3.jpg">
+
+                <img src="images/photo4.jpg">
+
+                <img src="images/photo5.jpg">
+
+                <img src="images/photo6.jpg">
+
+            </div>
+
+        </section>
+
+        <!-- Reasons -->
+        <section class="card">
+
+            <h2>Reasons I Love You ❤️</h2>
+
+            <div class="reasons">
+
+                <div class="reason">😊 Your smile</div>
+
+                <div class="reason">😂 Your laugh</div>
+
+                <div class="reason">❤️ Your kindness</div>
+
+                <div class="reason">🌎 You make life brighter</div>
+
+                <div class="reason">💖 You're simply YOU</div>
+
+                <div class="reason">🥰 Every moment with you</div>
+
+            </div>
+
+        </section>
+
+        <!-- Countdown -->
+        <section class="card">
+
+            <h2>One Last Surprise...</h2>
+
+            <h1 id="countdown">3</h1>
+
+        </section>
+
+        <!-- Final Message -->
+        <section class="card">
+
+            <h1>🎉 Happy Birthday! 🎉</h1>
+
+            <p class="final">
+
+                I hope today is filled with happiness,
+                laughter,
+                beautiful memories,
+                and endless love.
+
+                <br><br>
+
+                Thank you for being such an incredible person.
+
+                <br><br>
+
+                May all your dreams come true this year.
+
+                <br><br>
+
+                ❤️ I Love You ❤️
+
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- Lightbox -->
+    <div id="lightbox">
+
+        <span id="close">&times;</span>
+
+        <img id="lightboxImg">
+
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
